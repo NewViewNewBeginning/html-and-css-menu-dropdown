@@ -1,6 +1,6 @@
 :root {
-    --color-alfa: rgb(220, 220, 220);
-    --color-beta: rgb(0, 200, 250);
+    --color-alfa: #ffb037;
+    --color-beta: #364547;
 }
 
 .nav {
@@ -10,11 +10,17 @@
 }
 
 .nav__item {
+    font-size: 18px;
     background: var(--color-alfa);
     cursor: pointer;
-    padding: 0 5px;
+    padding: 10px 15px;
     margin-left: 5px;
     position: relative;
+    border-radius: 5px;
+}
+
+.nav__item:hover {
+    background-color: #ffe268;
 }
 
 .nav__item--no-space {
@@ -53,6 +59,13 @@
     height: 100%;
     text-decoration: none;
     width: 100%;
+}
+
+.dropdown__link:hover{
+    background-color: #ffb037;
+    color: #364547;
+    border-radius: 10px;
+    text-align: center;
 }
 
 
